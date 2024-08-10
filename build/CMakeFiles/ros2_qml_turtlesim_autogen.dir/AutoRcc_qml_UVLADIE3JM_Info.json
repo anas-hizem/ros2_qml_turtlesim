@@ -1,0 +1,20 @@
+{
+	"BUILD_DIR" : "/home/anas/ros2_ws/src/ros2_qml_turtlesim/build/ros2_qml_turtlesim_autogen",
+	"CMAKE_BINARY_DIR" : "/home/anas/ros2_ws/src/ros2_qml_turtlesim/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/anas/ros2_ws/src/ros2_qml_turtlesim/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/anas/ros2_ws/src/ros2_qml_turtlesim",
+	"CMAKE_SOURCE_DIR" : "/home/anas/ros2_ws/src/ros2_qml_turtlesim",
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/anas/ros2_ws/src/ros2_qml_turtlesim/build/ros2_qml_turtlesim_autogen/include",
+	"INPUTS" : [ "/home/anas/ros2_ws/src/ros2_qml_turtlesim/src/main.qml" ],
+	"LOCK_FILE" : "/home/anas/ros2_ws/src/ros2_qml_turtlesim/build/CMakeFiles/ros2_qml_turtlesim_autogen.dir/AutoRcc_qml_UVLADIE3JM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "UVLADIE3JM",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/anas/ros2_ws/src/ros2_qml_turtlesim/build/CMakeFiles/ros2_qml_turtlesim_autogen.dir/AutoRcc_qml_UVLADIE3JM_Used.txt",
+	"SOURCE" : "/home/anas/ros2_ws/src/ros2_qml_turtlesim/src/qml.qrc",
+	"VERBOSITY" : 0
+}

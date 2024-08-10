@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/anas/ros2_ws/src/ros2_qml_turtlesim/build/ros2_qml_turtlesim
+[  0%] Built target ros2_qml_turtlesim_autogen_timestamp_deps
+[ 14%] [34m[1mAutomatic MOC and UIC for target ros2_qml_turtlesim[0m
+[ 14%] Built target ros2_qml_turtlesim_autogen
+[ 28%] [34m[1mAutomatic RCC for src/qml.qrc[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/ros2_qml_turtlesim.dir/ros2_qml_turtlesim_autogen/mocs_compilation.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/ros2_qml_turtlesim.dir/src/main.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/ros2_qml_turtlesim.dir/ros2_qml_turtlesim_autogen/UVLADIE3JM/qrc_qml.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable ros2_qml_turtlesim[0m
+[100%] Built target ros2_qml_turtlesim
+-- Install configuration: ""
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/bin/ros2_qml_turtlesim
+-- Set non-toolchain portion of runtime path of "/home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/bin/ros2_qml_turtlesim" to ""
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ament_index/resource_index/package_run_dependencies/ros2_qml_turtlesim
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ament_index/resource_index/parent_prefix_path/ros2_qml_turtlesim
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/environment/ament_prefix_path.sh
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/environment/ament_prefix_path.dsv
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/environment/path.sh
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/environment/path.dsv
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/local_setup.bash
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/local_setup.sh
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/local_setup.zsh
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/local_setup.dsv
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/package.dsv
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ament_index/resource_index/packages/ros2_qml_turtlesim
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/cmake/ros2_qml_turtlesimConfig.cmake
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/cmake/ros2_qml_turtlesimConfig-version.cmake
+-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/package.xml

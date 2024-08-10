@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000265] (ros2_qml_turtlesim) JobQueued: {'identifier': 'ros2_qml_turtlesim', 'dependencies': OrderedDict()}
+[0.000661] (ros2_qml_turtlesim) JobStarted: {'identifier': 'ros2_qml_turtlesim'}
+[0.008647] (ros2_qml_turtlesim) JobProgress: {'identifier': 'ros2_qml_turtlesim', 'progress': 'cmake'}
+[0.009918] (ros2_qml_turtlesim) JobProgress: {'identifier': 'ros2_qml_turtlesim', 'progress': 'build'}
+[0.009963] (ros2_qml_turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anas/ros2_ws/src/ros2_qml_turtlesim/build/ros2_qml_turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/build/ros2_qml_turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'anas', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/anas', 'OLDPWD': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/build', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1804', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7ec61b84606416d39d45a37466b731fa', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'anas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/bin:/opt/Qt/Tools/QtCreator/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anas-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/1804,unix/anas-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/1804', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c55f750e_5bec_4e2a_88a6_9690f2fe448f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.396', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/build/ros2_qml_turtlesim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7ec61b84606416d39d45a37466b731fa', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.038162] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099938] (-) TimerEvent: {}
+[0.200328] (-) TimerEvent: {}
+[0.300678] (-) TimerEvent: {}
+[0.334306] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.373179] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.388706] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.400773] (-) TimerEvent: {}
+[0.401467] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.414271] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.472272] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.473396] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500887] (-) TimerEvent: {}
+[0.535958] (ros2_qml_turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.598653] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.600990] (-) TimerEvent: {}
+[0.613019] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.701187] (-) TimerEvent: {}
+[0.752577] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.801376] (-) TimerEvent: {}
+[0.883605] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[0.885367] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/anas/ros2_ws/src/ros2_qml_turtlesim/build/ros2_qml_turtlesim\n'}
+[0.901488] (-) TimerEvent: {}
+[0.923849] (ros2_qml_turtlesim) StdoutLine: {'line': b'[  0%] Built target ros2_qml_turtlesim_autogen_timestamp_deps\n'}
+[0.961225] (ros2_qml_turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target ros2_qml_turtlesim\x1b[0m\n'}
+[1.001634] (-) TimerEvent: {}
+[1.102002] (-) TimerEvent: {}
+[1.202370] (-) TimerEvent: {}
+[1.302663] (-) TimerEvent: {}
+[1.304481] (ros2_qml_turtlesim) StdoutLine: {'line': b'[ 12%] Built target ros2_qml_turtlesim_autogen\n'}
+[1.317677] (ros2_qml_turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mAutomatic RCC for src/qml.qrc\x1b[0m\n'}
+[1.397890] (ros2_qml_turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros2_qml_turtlesim.dir/ros2_qml_turtlesim_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.399414] (ros2_qml_turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_qml_turtlesim.dir/src/main.cpp.o\x1b[0m\n'}
+[1.399914] (ros2_qml_turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ros2_qml_turtlesim.dir/ros2_qml_turtlesim_autogen/UVLADIE3JM/qrc_qml.cpp.o\x1b[0m\n'}
+[1.400276] (ros2_qml_turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ros2_qml_turtlesim.dir/src/rclcomm.cpp.o\x1b[0m\n'}
+[1.402784] (-) TimerEvent: {}
+[1.503150] (-) TimerEvent: {}
+[1.603478] (-) TimerEvent: {}
+[1.703793] (-) TimerEvent: {}
+[1.804119] (-) TimerEvent: {}
+[1.904458] (-) TimerEvent: {}
+[2.004805] (-) TimerEvent: {}
+[2.105148] (-) TimerEvent: {}
+[2.205505] (-) TimerEvent: {}
+[2.305858] (-) TimerEvent: {}
+[2.406249] (-) TimerEvent: {}
+[2.506586] (-) TimerEvent: {}
+[2.606917] (-) TimerEvent: {}
+[2.707263] (-) TimerEvent: {}
+[2.807607] (-) TimerEvent: {}
+[2.907948] (-) TimerEvent: {}
+[3.008305] (-) TimerEvent: {}
+[3.108652] (-) TimerEvent: {}
+[3.208995] (-) TimerEvent: {}
+[3.309442] (-) TimerEvent: {}
+[3.409819] (-) TimerEvent: {}
+[3.510229] (-) TimerEvent: {}
+[3.610542] (-) TimerEvent: {}
+[3.710916] (-) TimerEvent: {}
+[3.811335] (-) TimerEvent: {}
+[3.911664] (-) TimerEvent: {}
+[4.012053] (-) TimerEvent: {}
+[4.112453] (-) TimerEvent: {}
+[4.212834] (-) TimerEvent: {}
+[4.313232] (-) TimerEvent: {}
+[4.413620] (-) TimerEvent: {}
+[4.514004] (-) TimerEvent: {}
+[4.614415] (-) TimerEvent: {}
+[4.714817] (-) TimerEvent: {}
+[4.815202] (-) TimerEvent: {}
+[4.915578] (-) TimerEvent: {}
+[5.015947] (-) TimerEvent: {}
+[5.116346] (-) TimerEvent: {}
+[5.216718] (-) TimerEvent: {}
+[5.317117] (-) TimerEvent: {}
+[5.417529] (-) TimerEvent: {}
+[5.517907] (-) TimerEvent: {}
+[5.618269] (-) TimerEvent: {}
+[5.718633] (-) TimerEvent: {}
+[5.818913] (-) TimerEvent: {}
+[5.919266] (-) TimerEvent: {}
+[6.019620] (-) TimerEvent: {}
+[6.120004] (-) TimerEvent: {}
+[6.220359] (-) TimerEvent: {}
+[6.320737] (-) TimerEvent: {}
+[6.375720] (ros2_qml_turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable ros2_qml_turtlesim\x1b[0m\n'}
+[6.420905] (-) TimerEvent: {}
+[6.521355] (-) TimerEvent: {}
+[6.621680] (-) TimerEvent: {}
+[6.721999] (-) TimerEvent: {}
+[6.822357] (-) TimerEvent: {}
+[6.922698] (-) TimerEvent: {}
+[7.023050] (-) TimerEvent: {}
+[7.123523] (-) TimerEvent: {}
+[7.223959] (-) TimerEvent: {}
+[7.324387] (-) TimerEvent: {}
+[7.424757] (-) TimerEvent: {}
+[7.512725] (ros2_qml_turtlesim) StdoutLine: {'line': b'[100%] Built target ros2_qml_turtlesim\n'}
+[7.523530] (ros2_qml_turtlesim) CommandEnded: {'returncode': 0}
+[7.524839] (-) TimerEvent: {}
+[7.573297] (ros2_qml_turtlesim) JobProgress: {'identifier': 'ros2_qml_turtlesim', 'progress': 'install'}
+[7.589354] (ros2_qml_turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anas/ros2_ws/src/ros2_qml_turtlesim/build/ros2_qml_turtlesim'], 'cwd': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/build/ros2_qml_turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'anas', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/anas', 'OLDPWD': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/build', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1804', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7ec61b84606416d39d45a37466b731fa', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'anas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/bin:/opt/Qt/Tools/QtCreator/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anas-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/1804,unix/anas-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/1804', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c55f750e_5bec_4e2a_88a6_9690f2fe448f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.396', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/build/ros2_qml_turtlesim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7ec61b84606416d39d45a37466b731fa', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.603830] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.604639] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/bin/ros2_qml_turtlesim\n'}
+[7.606188] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/bin/ros2_qml_turtlesim" to ""\n'}
+[7.606491] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ament_index/resource_index/package_run_dependencies/ros2_qml_turtlesim\n'}
+[7.606766] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ament_index/resource_index/parent_prefix_path/ros2_qml_turtlesim\n'}
+[7.606954] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/environment/ament_prefix_path.sh\n'}
+[7.607155] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/environment/ament_prefix_path.dsv\n'}
+[7.607399] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/environment/path.sh\n'}
+[7.607677] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/environment/path.dsv\n'}
+[7.607919] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/local_setup.bash\n'}
+[7.608065] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/local_setup.sh\n'}
+[7.608259] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/local_setup.zsh\n'}
+[7.608395] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/local_setup.dsv\n'}
+[7.608530] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Installing: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/package.dsv\n'}
+[7.608664] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ament_index/resource_index/packages/ros2_qml_turtlesim\n'}
+[7.608796] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/cmake/ros2_qml_turtlesimConfig.cmake\n'}
+[7.608927] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/cmake/ros2_qml_turtlesimConfig-version.cmake\n'}
+[7.609061] (ros2_qml_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/anas/ros2_ws/src/ros2_qml_turtlesim/install/ros2_qml_turtlesim/share/ros2_qml_turtlesim/package.xml\n'}
+[7.611029] (ros2_qml_turtlesim) CommandEnded: {'returncode': 0}
+[7.625558] (-) TimerEvent: {}
+[7.698483] (ros2_qml_turtlesim) JobEnded: {'identifier': 'ros2_qml_turtlesim', 'rc': 0}
+[7.699764] (-) EventReactorShutdown: {}
