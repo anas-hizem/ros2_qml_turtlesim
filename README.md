@@ -98,14 +98,5 @@ ros2_ws/src/ros2_qml_turtlesim/
 
 Vous devriez voir une interface QML qui vous permet de contrôler la tortue dans le simulateur Turtlesim en utilisant les boutons et le `Slider` pour ajuster la vitesse.
 
-## Contribution
+![ROSQmlTurtlesim](https://github.com/user-attachments/assets/caffa0b9-8837-4163-9789-cda8a3c65e98)
 
-Les contributions sont les bienvenues ! Si vous avez des suggestions ou des corrections, veuillez ouvrir une issue ou soumettre une pull request.
-
-## Licence
-
-Ce projet est sous la licence [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
-
----
-
-Si vous avez des questions, n'hésitez pas à me contacter à l'adresse suivante : anas.hizem@ensi-uma.tn.
