@@ -50,7 +50,7 @@ Le projet est structuré de manière à séparer les différentes responsabilit�
 ## Architecture du Projet
 
 La structure du projet est la suivante :
-
+```css
 ros2_ws/src/ros2_qml_turtlesim/
 ├── build # Répertoire généré lors de la construction
 ├── CMakeLists.txt # Fichier de configuration de CMake
@@ -61,7 +61,7 @@ ros2_ws/src/ros2_qml_turtlesim/
 │ ├── rclcomm.h # Déclaration de la classe de communication ROS2
 │ ├── qml.qrc # Ressources QML
 │ └── main.qml # Interface utilisateur QML
-
+```
 
 
 ### Architecture ROS
